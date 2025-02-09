@@ -7,7 +7,6 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon app.js",
-    "build": "nodemon app.js --minify"
   },
   "dependencies": {
     "cors": "^2.8.5",
