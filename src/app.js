@@ -3,14 +3,8 @@ const validator = require('validator');
 const cors = require('cors');
 const app = express()
 
-const corsOptions = {
-  origin: '*',
-  methods: ['GET'], 
-  allowedHeaders: ['Content-Type'],
-};
-
-app.use(cors(corsOptions));
-const port = 3000
+app.use(cors());
+const port = process.env.PORT || 3000
 
 
 // The api routes
