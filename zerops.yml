@@ -8,7 +8,6 @@ zerops:
         - npm run build
 
       deployFiles:
-        - dist
         - package.json
         - node_modules
 
