@@ -6,8 +6,8 @@
   "author": "pepps01 <slpepple01@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon app.js",
-    "build": "npm install --production"
+    "start": "nodemon src/app.js",
+    "build": "nodemon src/app.js --minify"
   },
   "dependencies": {
     "cors": "^2.8.5",
