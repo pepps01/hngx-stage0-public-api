@@ -19,11 +19,12 @@ Before you start, ensure you have the following installed:
 
 2. Install the dependencies 
    ```bash
-   yarn install 
+   npm install 
+   npm run build
 
 3. Runn the Application 
     ```bash
-    yarn start
+    npm start
 
 4. API Endpoints
     GET /
