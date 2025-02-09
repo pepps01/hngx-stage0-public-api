@@ -5,11 +5,12 @@ zerops:
 
       buildCommands:
         - npm i
-        - npm run build
+        # - npm run build
 
       deployFiles:
         - package.json
         - node_modules
+        - app.js
 
       cache:
         - node_modules
