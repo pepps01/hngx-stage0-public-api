@@ -1,8 +1,19 @@
 const express = require('express')
 const validator = require('validator');
+const cors = require('cors');
 const app = express()
+
+const corsOptions = {
+  origin: '*',
+  methods: ['GET'], 
+  allowedHeaders: ['Content-Type'],
+};
+
+app.use(cors(corsOptions));
 const port = 3000
 
+
+// The api routes
 app.get('/', (req, res) => {
   res.send('Hello HNG!')
 })

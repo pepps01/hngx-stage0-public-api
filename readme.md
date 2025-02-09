@@ -44,21 +44,21 @@ Before you start, ensure you have the following installed:
 
 
 5. Response:
-        If the email is valid, you will receive a JSON response containing:
+    If the email is valid, you will receive a JSON response containing:
 
-        {
-            "email": "test@example.com",
-            "current_datetime": "2025-02-09T12:34:56.789Z",
-            "github_url": "https://github.com/pepps01/hngx-stage0-public-api.git"
-        }
+    {
+        "email": "test@example.com",
+        "current_datetime": "2025-02-09T12:34:56.789Z",
+        "github_url": "https://github.com/pepps01/hngx-stage0-public-api.git"
+    }
 
 
-        If no email query parameter is provided, you will get an error:
-        {
-            "error": "Email query parameter is required"
-        }
-        
-        If the provided email is invalid, you will get an error:
-        {
-            "error": "The input is an invalid email"
-        }
+    If no email query parameter is provided, you will get an error:
+    {
+        "error": "Email query parameter is required"
+    }
+    
+    If the provided email is invalid, you will get an error:
+    {
+        "error": "The input is an invalid email"
+    }
