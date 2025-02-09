@@ -1,0 +1,16 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pepps01/hngx-stage0-public-api.git",
+  "author": "pepps01 <slpepple01@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "validator": "^13.12.0"
+  }
+}
