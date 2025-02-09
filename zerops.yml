@@ -1,7 +1,7 @@
 zerops:
   - setup: nodejs0
     build:
-      base: nodejs@22
+      base: nodejs@latest
 
       buildCommands:
         - npm i

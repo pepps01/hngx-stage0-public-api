@@ -6,7 +6,8 @@
   "author": "pepps01 <slpepple01@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "npm install --production"
   },
   "dependencies": {
     "cors": "^2.8.5",
